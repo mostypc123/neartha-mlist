@@ -561,8 +561,7 @@ if __name__ == "__main__":
     
     logger.info("Hash scraping completed")
 EOF
-        chmod +x scripts/hash_scraper.py
-        
+
     - name: Run hash scraper
       run: python scripts/hash_scraper.py
 
