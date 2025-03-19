@@ -1,0 +1,90 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-03-19T00:00:00",
+  "description": "VirusTotal malware hashes collected on March 19, 2025",
+  "source": "VirusTotal",
+  "sha256_signatures": {
+    "ff2ab266e09263c41f8301138189df7e18b0f8e25ba810804804e0df31e42ceb": {
+      "classification": "Trojan",
+      "detection_rate": "52/73",
+      "first_seen": "2025-03-19",
+      "neartha_name": "Trojan.VT.GenericMalware"
+    },
+    "0718624b99b6963a2c47ef7e9600af524f20d91f88dde55cefb142bdeb3f34da": {
+      "classification": "Trojan",
+      "detection_rate": "70/73",
+      "first_seen": "2025-03-19",
+      "neartha_name": "Trojan.VT.HighConfidence"
+    },
+    "00847ae2dcfeb5c9493ba49224274aa4400ce375a8e372b16dea7add756ffb00": {
+      "classification": "Trojan",
+      "detection_rate": "59/73",
+      "first_seen": "2025-03-19",
+      "neartha_name": "Trojan.VT.GenericMalware"
+    },
+    "02052a03dcdf75e218be5528860d3caeaf84b6cbf31c3b76f3b10b85de87f4cc": {
+      "classification": "Virus.Nestha",
+      "detection_rate": "67/73",
+      "first_seen": "2025-03-19",
+      "neartha_name": "Virus.Nestha.A"
+    },
+    "fbdfbb6d5e3c9c688245eebcafff0ef7bbe2c3219b6d4c466f1b17c7b87": {
+      "classification": "wgsd.sh",
+      "detection_rate": "31/73",
+      "first_seen": "2025-03-19",
+      "neartha_name": "Trojan.Linux.Shell.A",
+      "additional_info": "Script that attempts to download files from a remote server using wget"
+    },
+    "02b624e4ed20fc9f0ab05b809fcfa51f59cd12969ea1668cf63412057dae": {
+      "classification": "Trojan.Dropper",
+      "detection_rate": "64/73",
+      "first_seen": "2025-03-19",
+      "neartha_name": "Trojan.Dropper.Generic"
+    },
+    "6a0bf63db5c3d57d6f5e2ebcb7a24aa69fd46da7cb15a7b78f77f6111b": {
+      "classification": "PowerShell.Malware",
+      "detection_rate": "7/48",
+      "first_seen": "2025-03-19",
+      "neartha_name": "Malware.PowerShell.Generic",
+      "additional_info": "PowerShell script with obfuscation techniques"
+    },
+    "351f3d7ae2347d1da7e8fa7fa978c5336f76047f4aa017d0058f1e1e3cba1f": {
+      "classification": "Win32.Trojan",
+      "detection_rate": "62/73",
+      "first_seen": "2025-03-19",
+      "neartha_name": "Trojan.Win32.Generic",
+      "additional_info": "Windows executable with virus-like functionality"
+    },
+    "068a51c9635fa7ea12ea12ea612ca5fcd83d9c0d186ce4d3faf": {
+      "classification": "Spyware.Generic",
+      "detection_rate": "49/73",
+      "first_seen": "2025-03-19",
+      "neartha_name": "Spyware.Win32.Generic",
+      "additional_info": "Multiple YARA rule matches indicating suspicious behavior"
+    },
+    "f6708a2c846f03d3c64d9851ff9aced5554cf4f4f30a00bf786716066791562": {
+      "classification": "Trojan.VBS.Dunihi",
+      "detection_rate": "39/59",
+      "first_seen": "2025-03-19",
+      "neartha_name": "Trojan.VBS.Dunihi.Emeka",
+      "additional_info": "VBS script trojan with worm capabilities",
+      "file_type": "VBS"
+    },
+    "aff7dcfad8d8a8a22ceef58bb712b857d3c394129187defe5f47021d4bf66c4": {
+      "classification": "Trojan.Tedy",
+      "detection_rate": "31/72",
+      "first_seen": "2025-03-19",
+      "neartha_name": "Trojan.Win32.Tedy.A",
+      "additional_info": "Executable with invalid signature, matches ShikataGaNai rule",
+      "file_type": "EXE"
+    },
+    "5bf5bd13cd6356e73b91229e8b7ca02ce1a1602b7ef3166c762ac70fe6d484ed": {
+      "classification": "Trojan.MSIL.Jalapeno",
+      "detection_rate": "49/73",
+      "first_seen": "2025-03-19",
+      "neartha_name": "Trojan.MSIL.AsyncRAT",
+      "additional_info": "AsyncRAT backdoor detected by multiple YARA rules",
+      "file_type": "EXE"
+    }
+  }
+}
